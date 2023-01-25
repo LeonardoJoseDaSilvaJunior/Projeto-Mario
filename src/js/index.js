@@ -1,6 +1,4 @@
-console.log(document.querySelector(".botao-trailer"));
-
-//constantes
+// Declarando as constantes
 const botaoTrailer = document.querySelector(".botao-trailer");
 const modal = document.querySelector(".modal");
 const botaoFecharModal = document.querySelector(".fechar-modal");
@@ -15,6 +13,8 @@ const videoSrc = video.src;
 // nome.classList.toggle("joao")
 // a joao já existe? sim, então o toggle irá o remover, 
 //caso não houvesse "joao", o toggle adicionaria; 
+
+
 function alternarModal(){
     modal.classList.toggle("aberto");
 }
